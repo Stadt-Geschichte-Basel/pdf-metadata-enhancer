@@ -41,7 +41,7 @@ This file tracks all TODO items identified in the repository during initializati
 - [ ] **Set Up Zenodo Integration**: Connect repository to Zenodo for DOI generation
 - [ ] **Enable GitHub Pages**: Configure Pages to publish from `gh-pages` branch
 - [ ] **Publish Documentation**: Run `quarto publish gh-pages` to publish documentation
-- [ ] **Add Citation File**: Create `CITATION.cff` file (optional)
+- [ ] **Add Citation File**: Create `CITATION.cff` file ✅ **COMPLETED** - Created with project-specific metadata based on template
 - [ ] **Add Zenodo Metadata File**: Create `.zenodo.json` for Zenodo metadata (optional)
 - [ ] **Add Favicons**: Repository already has favicons, but may need customization
 
