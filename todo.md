@@ -10,7 +10,7 @@ This file tracks all TODO items identified in the repository during initializati
 - ✅ **Replace USERNAME**: Changed to `Stadt-Geschichte-Basel`
 - ✅ **Replace FULLNAME**: Changed to `Moritz Mähr`
 - ✅ **Replace SHORT_DESCRIPTION**: Changed to "Tools and workflows for enhancing PDF metadata for digital preservation and accessibility"
-- ✅ **Replace [INSERT CONTACT METHOD]**: Changed to `maehr@users.noreply.github.com`
+- ✅ **Replace [INSERT CONTACT METHOD]**: Changed to `info@stadtgeschichtebasel.ch`
 - ✅ **Update Data Description section**: Replaced generic TODO placeholders with PDF metadata-specific content
 - ✅ **Update all repository URLs**: Updated GitHub links throughout configuration files
 - ✅ **Format all files**: Applied Prettier formatting
