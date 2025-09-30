@@ -84,6 +84,23 @@ echo "data/raw/document.pdf,10.21255/sgb-01-406352" >> mapping.csv
 pdf-metadata-enhancer ingest --input mapping.csv --out-dir data/clean/ --verbose
 ```
 
+### How It Works
+
+1. **Metadata Fetching**: For each DOI, the tool fetches metadata using HTTP content negotiation:
+
+   ```bash
+   curl -LH "Accept: application/vnd.citationstyles.csl+json" https://doi.org/10.21255/sgb-01-406352
+   ```
+
+2. **PDF Enhancement**: Opens the input PDF and embeds metadata into:
+   - PDF InfoDict (native PDF metadata dictionary)
+   - XMP packet (extensible metadata platform using Dublin Core schema)
+
+3. **Provenance Tracking**: Creates a sidecar JSON file with:
+   - SHA256 hashes of input and output files for integrity verification
+   - Complete CSL-JSON metadata for reproducibility
+   - ISO 8601 timestamp for processing time
+
 ### Output
 
 The tool produces:
@@ -94,6 +111,50 @@ The tool produces:
    - Complete CSL-JSON metadata
    - SHA256 hashes of input and output files
    - Processing timestamp for provenance tracking
+
+#### Embedded Metadata Fields
+
+The tool embeds the following metadata fields from CSL-JSON into PDFs:
+
+**PDF InfoDict:**
+
+- `/Title`: Document title
+- `/Author`: Authors (concatenated with semicolons)
+- `/Subject`: Abstract/description
+- `/Keywords`: Subject keywords
+- `/Producer`: Tool identifier
+
+**XMP Dublin Core:**
+
+- `dc:title`: Document title
+- `dc:creator`: Authors (as array)
+- `dc:subject`: Subject keywords
+- `dc:publisher`: Publisher name
+- `dc:description`: Abstract/description
+- `dc:identifier`: DOI identifier
+
+#### Sidecar Example
+
+```json
+{
+	"version": "0.1.0",
+	"timestamp": "2023-03-15T10:30:00.000Z",
+	"input": {
+		"path": "data/raw/document.pdf",
+		"sha256": "ca134a6dcb00077e..."
+	},
+	"output": {
+		"path": "data/clean/document.pdf",
+		"sha256": "c396864095567edd..."
+	},
+	"doi": "10.21255/sgb-01-406352",
+	"metadata": {
+		"DOI": "10.21255/sgb-01-406352",
+		"title": "Document Title",
+		"author": [{ "family": "Müller", "given": "Hans" }]
+	}
+}
+```
 
 ### Command-Line Options
 

@@ -1,8 +1,11 @@
 """Tests for the input parser module."""
 
-import pytest
 import tempfile
+import sys
 from pathlib import Path
+
+sys.path.insert(0, 'src')
+
 from pdf_metadata_enhancer.input_parser import parse_input_file, parse_csv_tsv, parse_jsonl
 
 
@@ -21,6 +24,7 @@ def test_parse_csv():
         assert mappings[0]["doi"] == "10.1234/test1"
         assert mappings[1]["pdf"] == "./test2.pdf"
         assert mappings[1]["doi"] == "10.1234/test2"
+        print("✓ CSV parsing test passed")
     finally:
         csv_path.unlink()
 
@@ -37,6 +41,7 @@ def test_parse_tsv():
         assert len(mappings) == 1
         assert mappings[0]["pdf"] == "./test1.pdf"
         assert mappings[0]["doi"] == "10.1234/test1"
+        print("✓ TSV parsing test passed")
     finally:
         tsv_path.unlink()
 
@@ -53,6 +58,7 @@ def test_parse_jsonl():
         assert len(mappings) == 2
         assert mappings[0]["pdf"] == "./test1.pdf"
         assert mappings[0]["doi"] == "10.1234/test1"
+        print("✓ JSONL parsing test passed")
     finally:
         jsonl_path.unlink()
 
@@ -64,8 +70,12 @@ def test_invalid_format():
         txt_path = Path(f.name)
     
     try:
-        with pytest.raises(ValueError, match="Unsupported file format"):
+        try:
             parse_input_file(txt_path)
+            assert False, "Should have raised ValueError"
+        except ValueError as e:
+            assert "Unsupported file format" in str(e)
+        print("✓ Invalid format test passed")
     finally:
         txt_path.unlink()
 
@@ -78,8 +88,12 @@ def test_missing_columns():
         csv_path = Path(f.name)
     
     try:
-        with pytest.raises(ValueError, match="Invalid CSV/TSV format"):
+        try:
             parse_input_file(csv_path)
+            assert False, "Should have raised ValueError"
+        except ValueError as e:
+            assert "Invalid CSV/TSV format" in str(e)
+        print("✓ Missing columns test passed")
     finally:
         csv_path.unlink()
 
@@ -91,7 +105,23 @@ def test_empty_file():
         csv_path = Path(f.name)
     
     try:
-        with pytest.raises(ValueError, match="No valid PDF-DOI mappings"):
+        try:
             parse_input_file(csv_path)
+            assert False, "Should have raised ValueError"
+        except ValueError as e:
+            assert "No valid PDF-DOI mappings" in str(e)
+        print("✓ Empty file test passed")
     finally:
         csv_path.unlink()
+
+
+if __name__ == "__main__":
+    print("Running input parser tests...\n")
+    test_parse_csv()
+    test_parse_tsv()
+    test_parse_jsonl()
+    test_invalid_format()
+    test_missing_columns()
+    test_empty_file()
+    print("\n✓ All input parser tests passed!")
+

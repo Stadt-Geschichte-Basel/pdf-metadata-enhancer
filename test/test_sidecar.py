@@ -1,9 +1,12 @@
 """Tests for the sidecar module."""
 
-import pytest
 import tempfile
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, 'src')
+
 import pikepdf
 from pdf_metadata_enhancer.sidecar import compute_file_hash, create_sidecar
 
@@ -19,6 +22,7 @@ def test_compute_file_hash():
         # Known SHA256 for "test content"
         expected = "6ae8a75555209fd6c44157c0aed8016e763ff435a19cf186f76863140143ff72"
         assert hash_value == expected
+        print("✓ File hash test passed")
     finally:
         Path(temp_path).unlink()
 
@@ -70,8 +74,18 @@ def test_create_sidecar():
         assert "sha256" in data["output"]
         assert len(data["input"]["sha256"]) == 64  # SHA256 hex length
         
+        print("✓ Sidecar creation test passed")
+        
     finally:
         Path(input_pdf).unlink()
         output_pdf.unlink()
         if sidecar_path.exists():
             sidecar_path.unlink()
+
+
+if __name__ == "__main__":
+    print("Running sidecar module tests...\n")
+    test_compute_file_hash()
+    test_create_sidecar()
+    print("\n✓ All sidecar tests passed!")
+
