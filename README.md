@@ -54,14 +54,26 @@ The structure of this repository follows the [Advanced Structure for Data Analys
 ### Requirements
 
 - Python 3.10 or higher
-- pip package manager
+- pip package manager (or [uv](https://github.com/astral-sh/uv) for faster installation)
 
 ### Install from source
+
+**Using pip:**
 
 ```bash
 git clone https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer.git
 cd pdf-metadata-enhancer
 pip install -e .
+```
+
+**Using uv (recommended for faster installation):**
+
+```bash
+git clone https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer.git
+cd pdf-metadata-enhancer
+uv venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+uv pip install -e .
 ```
 
 ## Usage
@@ -189,6 +201,26 @@ Options:
 - `-v, --verbose`: Enable verbose output
 
 ## Development
+
+### Code Quality
+
+This project uses [Ruff](https://github.com/astral-sh/ruff) for linting and formatting Python code.
+
+```bash
+# Install development dependencies (including ruff)
+pip install -e ".[dev]"
+# or with uv:
+uv pip install -e ".[dev]"
+
+# Check code
+ruff check src/ test/ run_tests.py
+
+# Format code
+ruff format src/ test/ run_tests.py
+
+# Fix auto-fixable issues
+ruff check --fix src/ test/ run_tests.py
+```
 
 ### Running Tests
 

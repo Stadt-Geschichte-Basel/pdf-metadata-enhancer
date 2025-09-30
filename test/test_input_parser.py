@@ -1,22 +1,22 @@
 """Tests for the input parser module."""
 
-import tempfile
 import sys
+import tempfile
 from pathlib import Path
 
-sys.path.insert(0, 'src')
+sys.path.insert(0, "src")
 
-from pdf_metadata_enhancer.input_parser import parse_input_file, parse_csv_tsv, parse_jsonl
+from pdf_metadata_enhancer.input_parser import parse_input_file
 
 
 def test_parse_csv():
     """Test parsing a CSV file."""
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.csv', delete=False) as f:
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".csv", delete=False) as f:
         f.write("pdf,doi\n")
         f.write("./test1.pdf,10.1234/test1\n")
         f.write("./test2.pdf,10.1234/test2\n")
         csv_path = Path(f.name)
-    
+
     try:
         mappings = parse_input_file(csv_path)
         assert len(mappings) == 2
@@ -31,11 +31,11 @@ def test_parse_csv():
 
 def test_parse_tsv():
     """Test parsing a TSV file."""
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.tsv', delete=False) as f:
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".tsv", delete=False) as f:
         f.write("pdf\tdoi\n")
         f.write("./test1.pdf\t10.1234/test1\n")
         tsv_path = Path(f.name)
-    
+
     try:
         mappings = parse_input_file(tsv_path)
         assert len(mappings) == 1
@@ -48,11 +48,11 @@ def test_parse_tsv():
 
 def test_parse_jsonl():
     """Test parsing a JSONL file."""
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.jsonl', delete=False) as f:
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".jsonl", delete=False) as f:
         f.write('{"pdf": "./test1.pdf", "doi": "10.1234/test1"}\n')
         f.write('{"pdf": "./test2.pdf", "doi": "10.1234/test2"}\n')
         jsonl_path = Path(f.name)
-    
+
     try:
         mappings = parse_input_file(jsonl_path)
         assert len(mappings) == 2
@@ -65,14 +65,14 @@ def test_parse_jsonl():
 
 def test_invalid_format():
     """Test that invalid file format raises ValueError."""
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as f:
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".txt", delete=False) as f:
         f.write("test")
         txt_path = Path(f.name)
-    
+
     try:
         try:
             parse_input_file(txt_path)
-            assert False, "Should have raised ValueError"
+            raise AssertionError("Should have raised ValueError")
         except ValueError as e:
             assert "Unsupported file format" in str(e)
         print("✓ Invalid format test passed")
@@ -82,15 +82,15 @@ def test_invalid_format():
 
 def test_missing_columns():
     """Test that CSV with missing columns raises ValueError."""
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.csv', delete=False) as f:
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".csv", delete=False) as f:
         f.write("pdf,other\n")
         f.write("./test1.pdf,value\n")
         csv_path = Path(f.name)
-    
+
     try:
         try:
             parse_input_file(csv_path)
-            assert False, "Should have raised ValueError"
+            raise AssertionError("Should have raised ValueError")
         except ValueError as e:
             assert "Invalid CSV/TSV format" in str(e)
         print("✓ Missing columns test passed")
@@ -100,14 +100,14 @@ def test_missing_columns():
 
 def test_empty_file():
     """Test that empty file raises ValueError."""
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.csv', delete=False) as f:
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".csv", delete=False) as f:
         f.write("pdf,doi\n")
         csv_path = Path(f.name)
-    
+
     try:
         try:
             parse_input_file(csv_path)
-            assert False, "Should have raised ValueError"
+            raise AssertionError("Should have raised ValueError")
         except ValueError as e:
             assert "No valid PDF-DOI mappings" in str(e)
         print("✓ Empty file test passed")
@@ -124,4 +124,3 @@ if __name__ == "__main__":
     test_missing_columns()
     test_empty_file()
     print("\n✓ All input parser tests passed!")
-
