@@ -1,1 +1,25 @@
-# Go to https://citation-file-format.github.io/ to learn more about the Citation File Format.
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: PDF Metadata Enhancer
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Moritz
+    family-names: Mähr
+    email: moritz.maehr@unibas.ch
+    affiliation: University of Basel
+    orcid: 'https://orcid.org/0000-0002-1367-1618'
+repository-code: >-
+  https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer
+url: 'https://stadt-geschichte-basel.github.io/pdf-metadata-enhancer'
+abstract: >-
+  Tools and workflows for enhancing PDF metadata for digital 
+  preservation and accessibility. This repository provides 
+  utilities to extract, validate, and enhance metadata in PDF 
+  documents to comply with preservation standards and improve 
+  accessibility for research and archival purposes.
+license: AGPL-3.0
