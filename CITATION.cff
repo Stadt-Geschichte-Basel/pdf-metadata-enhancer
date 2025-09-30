@@ -10,7 +10,7 @@ type: software
 authors:
   - given-names: Moritz
     family-names: Mähr
-    email: info@stadtgeschichtebasel.ch
+    email: moritz.maehr@unibas.ch
     affiliation: University of Basel
     orcid: 'https://orcid.org/0000-0002-1367-1618'
 repository-code: >-

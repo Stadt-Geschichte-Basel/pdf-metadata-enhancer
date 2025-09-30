@@ -1,7 +1,7 @@
 {
 	"name": "pdf-metadata-enhancer",
 	"description": "Tools and workflows for enhancing PDF metadata for digital preservation and accessibility",
-	"author": "Moritz Mähr <info@stadtgeschichtebasel.ch>",
+	"author": "Moritz Mähr <moritz.maehr@unibas.ch>",
 	"url": "https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/issues",
 	"license": "AGPL-3.0",
 	"scripts": {
