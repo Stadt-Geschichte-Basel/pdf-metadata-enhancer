@@ -1,6 +1,6 @@
 # pdf-metadata-enhancer
 
-This repository contains Tools and workflows for enhancing PDF metadata for digital preservation and accessibility. The data in this repository is openly available to everyone and is intended to support reproducible research.
+A CLI tool to embed canonical metadata from DOIs into PDF files for digital preservation and accessibility. This tool fetches bibliographic metadata using DOI content negotiation and embeds it into PDF InfoDict and XMP (Dublin Core) fields.
 
 [![GitHub issues](https://img.shields.io/github/issues/Stadt-Geschichte-Basel/pdf-metadata-enhancer.svg)](https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/issues)
 [![GitHub forks](https://img.shields.io/github/forks/Stadt-Geschichte-Basel/pdf-metadata-enhancer.svg)](https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/network)
@@ -8,6 +8,26 @@ This repository contains Tools and workflows for enhancing PDF metadata for digi
 [![Code license](https://img.shields.io/github/license/Stadt-Geschichte-Basel/pdf-metadata-enhancer.svg)](https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/blob/main/LICENSE-AGPL.md)
 [![Data license](https://img.shields.io/github/license/Stadt-Geschichte-Basel/pdf-metadata-enhancer.svg)](https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/blob/main/LICENSE-CCBY.md)
 [![DOI](https://zenodo.org/badge/GITHUB_REPO_ID.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD)
+
+## Quick Start
+
+```bash
+# Install
+pip install -e .
+
+# Run
+echo "pdf,doi" > mapping.csv
+echo "./document.pdf,10.21255/sgb-01-406352" >> mapping.csv
+pdf-metadata-enhancer ingest --input mapping.csv --out-dir output/ --verbose
+```
+
+## Features
+
+- **DOI Metadata Fetching**: Automatic metadata retrieval using HTTP content negotiation (CSL-JSON)
+- **PDF Enhancement**: Embeds metadata into PDF InfoDict and XMP (Dublin Core)
+- **Flexible Input**: Supports CSV, TSV, and JSONL mapping files
+- **Provenance Tracking**: Creates JSON sidecar files with SHA256 hashes and complete metadata
+- **Batch Processing**: Process multiple PDFs in a single run
 
 ## Repository Structure
 
@@ -167,6 +187,55 @@ Options:
 - `-i, --input PATH`: Input CSV/TSV/JSONL file mapping PDFs to DOIs (required)
 - `-o, --out-dir PATH`: Output directory for enhanced PDFs and sidecar files (required)
 - `-v, --verbose`: Enable verbose output
+
+## Development
+
+### Running Tests
+
+The project includes a comprehensive test suite:
+
+```bash
+# Run all tests
+python3 run_tests.py
+
+# Run individual test modules
+python3 test/test_input_parser.py
+python3 test/test_pdf_enhancer.py
+python3 test/test_sidecar.py
+```
+
+### Project Structure
+
+```
+src/pdf_metadata_enhancer/
+├── cli.py              # Command-line interface
+├── metadata_fetcher.py # DOI metadata fetching
+├── pdf_enhancer.py     # PDF metadata embedding
+├── input_parser.py     # Input file parsing
+└── sidecar.py          # Provenance sidecar generation
+
+test/
+├── test_input_parser.py
+├── test_pdf_enhancer.py
+└── test_sidecar.py
+
+data/
+├── raw/                # Input PDFs and mapping files
+└── clean/              # Enhanced PDFs and sidecars
+```
+
+## Repository Structure
+
+The structure of this repository follows the [Advanced Structure for Data Analysis](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) of _The Turing Way_ and is organized as follows:
+
+- `analysis/`: scripts and notebooks used to analyze the data
+- `build/`: scripts and notebooks used to build the data
+- `data/`: data files (raw inputs and clean outputs)
+- `documentation/`: documentation for the data and the repository
+- `project-management/`: project management documents
+- `src/`: source code for the CLI tool and modules
+- `test/`: tests for the code
+- `report.md`: a report describing the analysis of the data
 
 ## Citation
 
