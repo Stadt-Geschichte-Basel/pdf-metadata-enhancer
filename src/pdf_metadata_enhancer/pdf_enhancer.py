@@ -53,6 +53,12 @@ def enhance_pdf_metadata(
         # Abstract/description
         abstract = metadata.get("abstract", "")
 
+        # Copyright/rights
+        copyright_text = metadata.get("copyright", "")
+
+        # Language
+        language = metadata.get("language", "")
+
         if verbose:
             print("  → Updating PDF metadata")
             print(f"    Title: {title[:50]}..." if len(title) > 50 else f"    Title: {title}")
@@ -77,6 +83,10 @@ def enhance_pdf_metadata(
                 meta["dc:description"] = abstract
             if doi:
                 meta["dc:identifier"] = f"doi:{doi}"
+            if copyright_text:
+                meta["dc:rights"] = copyright_text
+            if language:
+                meta["dc:language"] = language
 
             # Add PDF metadata
             if title:
@@ -87,6 +97,8 @@ def enhance_pdf_metadata(
                 pdf.docinfo["/Subject"] = subject
             if abstract:
                 pdf.docinfo["/Keywords"] = abstract[:255]  # PDF has limits on keyword length
+            if copyright_text:
+                pdf.docinfo["/Copyright"] = copyright_text
 
             # Add producer info
             pdf.docinfo["/Producer"] = "pdf-metadata-enhancer/0.1.0"
