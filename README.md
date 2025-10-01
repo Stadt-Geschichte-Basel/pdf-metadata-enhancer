@@ -7,18 +7,19 @@ A CLI tool to embed canonical metadata from DOIs into PDF files for digital pres
 [![GitHub stars](https://img.shields.io/github/stars/Stadt-Geschichte-Basel/pdf-metadata-enhancer.svg)](https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/stargazers)
 [![Code license](https://img.shields.io/github/license/Stadt-Geschichte-Basel/pdf-metadata-enhancer.svg)](https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/blob/main/LICENSE-AGPL.md)
 [![Data license](https://img.shields.io/github/license/Stadt-Geschichte-Basel/pdf-metadata-enhancer.svg)](https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/blob/main/LICENSE-CCBY.md)
-[![DOI](https://zenodo.org/badge/GITHUB_REPO_ID.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD)
+
+<!-- [![DOI](https://zenodo.org/badge/GITHUB_REPO_ID.svg)](https://zenodo.org/badge/latestdoi/ZENODO_RECORD) -->
 
 ## Quick Start
 
 ```bash
 # Install
-pip install -e .
+uv sync
 
 # Run
 echo "pdf,doi" > mapping.csv
 echo "./document.pdf,10.21255/sgb-01-406352" >> mapping.csv
-pdf-metadata-enhancer ingest --input mapping.csv --out-dir output/ --verbose
+uv run pdf-metadata-enhancer ingest --input mapping.csv --out-dir output/ --verbose
 ```
 
 ## Features
@@ -29,36 +30,14 @@ pdf-metadata-enhancer ingest --input mapping.csv --out-dir output/ --verbose
 - **Provenance Tracking**: Creates JSON sidecar files with SHA256 hashes and complete metadata
 - **Batch Processing**: Process multiple PDFs in a single run
 
-## Repository Structure
-
-The structure of this repository follows the [Advanced Structure for Data Analysis](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) of _The Turing Way_ and is organized as follows:
-
-- `analysis/`: scripts and notebooks used to analyze the data
-- `assets/`: images, logos, etc. used in the README and other documentation
-- `build/`: scripts and notebooks used to build the data
-- `data/`: data files
-- `documentation/`: documentation for the data and the repository
-- `project-management/`: project management documents (e.g., meeting notes, project plans, etc.)
-- `src/`: source code for the data (e.g., scripts used to collect or process the data)
-- `test/`: tests for the data and source code
-- `report.md`: a report describing the analysis of the data
-
-## Data Description
-
-- This repository contains tools and workflows for enhancing PDF metadata to improve digital preservation and accessibility. The tools help extract, validate, and enhance metadata in PDF documents to comply with preservation standards.
-- Data models include PDF metadata schemas, controlled vocabularies for document types, subjects, and preservation levels. Field descriptions and validation rules are documented in the source code and configuration files.
-- All code is released under the GNU Affero General Public License v3.0, ensuring open access and collaborative development. Data and documentation are released under Creative Commons Attribution 4.0 International (CC BY 4.0) license.
-
 ## Installation
 
 ### Requirements
 
-- Python 3.10 or higher
-- pip package manager (or [uv](https://github.com/astral-sh/uv) for faster installation)
+- Python 3.11 or higher
+- [uv](https://github.com/astral-sh/uv)
 
 ### Install from source
-
-**Using [uv](https://github.com/astral-sh/uv) (recommended for faster installation):**
 
 ```bash
 git clone https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer.git
@@ -73,7 +52,7 @@ The `pdf-metadata-enhancer` CLI tool allows you to embed canonical metadata from
 ### Basic Usage
 
 ```bash
-pdf-metadata-enhancer ingest --input mapping.csv --out-dir output/
+uv run pdf-metadata-enhancer ingest --input mapping.csv --out-dir output/
 ```
 
 ### Input Format
@@ -103,7 +82,7 @@ echo "pdf,doi" > mapping.csv
 echo "data/raw/document.pdf,10.21255/sgb-01-406352" >> mapping.csv
 
 # Run the enhancement
-pdf-metadata-enhancer ingest --input mapping.csv --out-dir data/clean/ --verbose
+uv run pdf-metadata-enhancer ingest --input mapping.csv --out-dir data/clean/ --verbose
 ```
 
 ### How It Works
@@ -198,9 +177,7 @@ This project uses [Ruff](https://github.com/astral-sh/ruff) for linting and form
 
 ```bash
 # Install development dependencies (including ruff)
-pip install -e ".[dev]"
-# or with uv:
-uv pip install -e ".[dev]"
+uv sync
 
 # Check code
 ruff check src/ test/ run_tests.py
@@ -218,12 +195,12 @@ The project includes a comprehensive test suite:
 
 ```bash
 # Run all tests
-python3 run_tests.py
+uv run python3 run_tests.py
 
 # Run individual test modules
-python3 test/test_input_parser.py
-python3 test/test_pdf_enhancer.py
-python3 test/test_sidecar.py
+uv run python3 test/test_input_parser.py
+uv run python3 test/test_pdf_enhancer.py
+uv run python3 test/test_sidecar.py
 ```
 
 ### Project Structure
@@ -240,26 +217,9 @@ test/
 ├── test_input_parser.py
 ├── test_pdf_enhancer.py
 └── test_sidecar.py
-
-data/
-├── raw/                # Input PDFs and mapping files
-└── clean/              # Enhanced PDFs and sidecars
 ```
 
-## Repository Structure
-
-The structure of this repository follows the [Advanced Structure for Data Analysis](https://the-turing-way.netlify.app/project-design/project-repo/project-repo-advanced.html) of _The Turing Way_ and is organized as follows:
-
-- `analysis/`: scripts and notebooks used to analyze the data
-- `build/`: scripts and notebooks used to build the data
-- `data/`: data files (raw inputs and clean outputs)
-- `documentation/`: documentation for the data and the repository
-- `project-management/`: project management documents
-- `src/`: source code for the CLI tool and modules
-- `test/`: tests for the code
-- `report.md`: a report describing the analysis of the data
-
-## Citation
+<!-- ## Citation
 
 These tools are openly available to everyone and can be used for any research or educational purpose. If you use this tool in your research, please cite as specified in `CITATION.cff`. The following citation formats are also available through _Zenodo_:
 
@@ -277,7 +237,7 @@ _Zenodo_ provides an [API (REST & OAI-PMH)](https://developers.zenodo.org/) to a
 
 ```bash
 curl -i https://zenodo.org/api/records/ZENODO_RECORD
-```
+``` -->
 
 ## Support
 
