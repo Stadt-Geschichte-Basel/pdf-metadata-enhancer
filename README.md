@@ -58,22 +58,12 @@ The structure of this repository follows the [Advanced Structure for Data Analys
 
 ### Install from source
 
-**Using pip:**
+**Using [uv](https://github.com/astral-sh/uv) (recommended for faster installation):**
 
 ```bash
 git clone https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer.git
 cd pdf-metadata-enhancer
-pip install -e .
-```
-
-**Using uv (recommended for faster installation):**
-
-```bash
-git clone https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer.git
-cd pdf-metadata-enhancer
-uv venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-uv pip install -e .
+uv sync
 ```
 
 ## Usage
