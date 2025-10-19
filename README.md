@@ -64,14 +64,14 @@ The tool accepts CSV, TSV, or JSONL files mapping PDF files to their correspondi
 ```csv
 pdf,doi
 ./documents/paper1.pdf,10.21255/sgb-01-406352
-./documents/paper2.pdf,10.1234/example.doi
+./documents/paper2.pdf,10.21255/sgb-01.00-586075
 ```
 
 **JSONL format:**
 
 ```jsonl
 {"pdf": "./documents/paper1.pdf", "doi": "10.21255/sgb-01-406352"}
-{"pdf": "./documents/paper2.pdf", "doi": "10.1234/example.doi"}
+{"pdf": "./documents/paper2.pdf", "doi": "10.21255/sgb-01.00-586075"}
 ```
 
 ### Example
@@ -206,18 +206,79 @@ uv run python3 test/test_sidecar.py
 ### Project Structure
 
 ```
-src/pdf_metadata_enhancer/
-├── cli.py              # Command-line interface
-├── metadata_fetcher.py # DOI metadata fetching
-├── pdf_enhancer.py     # PDF metadata embedding
-├── input_parser.py     # Input file parsing
-└── sidecar.py          # Provenance sidecar generation
+src/
+├── pdf_metadata_enhancer/
+│   ├── cli.py              # Command-line interface
+│   ├── metadata_fetcher.py # DOI metadata fetching
+│   ├── pdf_enhancer.py     # PDF metadata embedding
+│   ├── input_parser.py     # Input file parsing
+│   └── sidecar.py          # Provenance sidecar generation
+└── scripts/
+    └── get_metadata.py     # DOI extraction and metadata harvesting
 
 test/
 ├── test_input_parser.py
 ├── test_pdf_enhancer.py
 └── test_sidecar.py
+
+sgb/
+├── dois.txt                # SGB DOI list (88 entries)
+└── metadata.json           # Pre-fetched SGB metadata
 ```
+
+### Helper Scripts
+
+#### DOI Metadata Harvester (`src/scripts/get_metadata.py`)
+
+This script automates the process of extracting DOIs from web pages and fetching their metadata:
+
+**Features:**
+- Extracts DOIs from HTML pages using pattern matching
+- Fetches CSL-JSON metadata via DOI content negotiation
+- Concurrent fetching with configurable concurrency
+- Provenance tracking (records origin page and line numbers)
+- Retry logic with exponential backoff
+- Comprehensive error reporting
+
+**Usage:**
+
+```bash
+# Fetch from default SGB catalog URLs
+uv run python3 src/scripts/get_metadata.py
+
+# Custom URLs
+uv run python3 src/scripts/get_metadata.py --url https://example.com/catalog
+
+# Multiple URLs
+uv run python3 src/scripts/get_metadata.py \
+  --url https://example.com/page1 \
+  --url https://example.com/page2
+
+# URLs from file
+echo "https://example.com/page1" > urls.txt
+echo "https://example.com/page2" >> urls.txt
+uv run python3 src/scripts/get_metadata.py --urls-file urls.txt
+
+# Custom output paths and concurrency
+uv run python3 src/scripts/get_metadata.py \
+  --out-dois my_dois.txt \
+  --out-json my_metadata.json \
+  --out-fail failures.txt \
+  --concurrency 20
+```
+
+**Options:**
+- `--url`: Add a URL to scan (can be used multiple times)
+- `--urls-file`: Path to a text file with one URL per line
+- `--concurrency`: Number of concurrent DOI fetches (default: 10)
+- `--out-dois`: Output file for DOI list (default: `dois.txt`)
+- `--out-json`: Output file for metadata (default: `metadata.json`)
+- `--out-fail`: Output file for failure report (default: `failed_dois_report.txt`)
+
+**Output Files:**
+1. **DOI list** (`dois.txt`): One DOI per line, lowercase, sorted
+2. **Metadata** (`metadata.json`): Array of CSL-JSON objects
+3. **Failure report** (`failed_dois_report.txt`): Errors with provenance information
 
 <!-- ## Citation
 
@@ -239,6 +300,14 @@ _Zenodo_ provides an [API (REST & OAI-PMH)](https://developers.zenodo.org/) to a
 curl -i https://zenodo.org/api/records/ZENODO_RECORD
 ``` -->
 
+## Additional Documentation
+
+- **[SGB Dataset](sgb/README.md)**: Documentation for the Stadt-Geschichte-Basel dataset
+- **[Contributing](CONTRIBUTING.md)**: Guidelines for contributing to this project
+- **[Changelog](CHANGELOG.md)**: Version history and changes
+- **[Security](SECURITY.md)**: Security policy and vulnerability reporting
+- **[Code of Conduct](CODE_OF_CONDUCT.md)**: Community guidelines
+
 ## Support
 
 This project is maintained by [@Stadt-Geschichte-Basel](https://github.com/Stadt-Geschichte-Basel). Please understand that we can't provide individual support via email. We also believe that help is much more valuable when it's shared publicly, so more people can benefit from it.
@@ -251,6 +320,51 @@ This project is maintained by [@Stadt-Geschichte-Basel](https://github.com/Stadt
 | 🎁 **Feature Requests**                | [GitHub Issue Tracker](https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/issues)    |
 | 🛡 **Report a security vulnerability** | See [SECURITY.md](SECURITY.md)                                                                    |
 | 💬 **General Questions**               | [GitHub Discussions](https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/discussions) |
+
+## Stadt-Geschichte-Basel (SGB) Dataset
+
+This repository includes a curated dataset of DOIs from the Stadt-Geschichte-Basel project:
+
+- **`sgb/dois.txt`**: A list of 88 DOIs from the SGB catalog
+- **`sgb/metadata.json`**: Pre-fetched CSL-JSON metadata for all SGB DOIs
+
+### Using the SGB Dataset
+
+The SGB DOIs can be used as a reference for testing and validation:
+
+```bash
+# Create a mapping file using SGB DOIs
+echo "pdf,doi" > mapping.csv
+echo "document.pdf,10.21255/sgb-01-406352" >> mapping.csv
+
+# Process PDFs with SGB metadata
+uv run pdf-metadata-enhancer ingest --input mapping.csv --out-dir output/
+```
+
+### Fetching Metadata for Custom DOI Lists
+
+The repository includes a helper script to fetch metadata for custom DOI lists:
+
+```bash
+# Fetch metadata from default SGB catalog URLs
+uv run python3 src/scripts/get_metadata.py
+
+# Fetch metadata from custom URLs
+uv run python3 src/scripts/get_metadata.py --url https://example.com/page1 --url https://example.com/page2
+
+# Customize output files
+uv run python3 src/scripts/get_metadata.py \
+  --out-dois custom_dois.txt \
+  --out-json custom_metadata.json \
+  --out-fail failed_report.txt \
+  --concurrency 20
+```
+
+The script:
+1. Extracts DOIs from HTML pages
+2. Fetches CSL-JSON metadata using content negotiation
+3. Creates a DOI list, metadata file, and failure report
+4. Supports concurrent fetching for better performance
 
 ## Roadmap
 

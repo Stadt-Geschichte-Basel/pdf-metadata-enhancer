@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-import asyncio
-import aiohttp
 import argparse
+import asyncio
 import json
 import re
 import sys
 from pathlib import Path
 from typing import Any
+
+import aiohttp
 
 URLS_DEFAULT = [
     "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band1",
