@@ -23,27 +23,23 @@ website:
     tools:
       - icon: github
         url: https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/
-    left:
-      - text: Readme
-        href: index.qmd
 
   sidebar:
     contents:
-      - section: pdf-metadata-enhancer
+      - text: Home
         href: index.qmd
-        contents:
-          - text: Changelog
-            href: CHANGELOG.md
-          - text: Code of Conduct
-            href: CODE_OF_CONDUCT.md
-          - text: Contributing
-            href: CONTRIBUTING.md
-          - text: License (Data)
-            href: LICENSE-CCBY.md
-          - text: License (Code)
-            href: LICENSE-AGPL.md
-          - text: Security
-            href: SECURITY.md
+      - text: Changelog
+        href: CHANGELOG.md
+      - text: Code of Conduct
+        href: CODE_OF_CONDUCT.md
+      - text: Contributing
+        href: CONTRIBUTING.md
+      - text: License (Data)
+        href: LICENSE-CCBY.md
+      - text: License (Code)
+        href: LICENSE-AGPL.md
+      - text: Security
+        href: SECURITY.md
 
 format:
   sgb-theme-html:

@@ -1,5 +1,5 @@
 ---
-title: Open Research Data
+title: PDF Metadata Enhancer
 format:
   sgb-theme-html:
     embed-resources: true

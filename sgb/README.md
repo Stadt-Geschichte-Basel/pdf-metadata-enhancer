@@ -9,6 +9,7 @@ This directory contains a curated dataset of Digital Object Identifiers (DOIs) a
 A plain text file containing 88 unique DOIs from the SGB catalog, one per line.
 
 **Format:**
+
 ```
 10.21255/sgb-01-406352
 10.21255/sgb-01.00-586075
@@ -17,6 +18,7 @@ A plain text file containing 88 unique DOIs from the SGB catalog, one per line.
 ```
 
 **Usage:**
+
 - Reference for testing the PDF metadata enhancer tool
 - Input for batch processing operations
 - Validation of DOI resolution and metadata fetching
@@ -28,29 +30,31 @@ Pre-fetched CSL-JSON metadata for all DOIs in `dois.txt`.
 **Format:** JSON array of CSL-JSON objects
 
 **Sample Record:**
+
 ```json
 {
-  "DOI": "10.21255/SGB-01.07-191037",
-  "URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band1/chapter/289",
-  "author": [
-    {
-      "family": "Lassau",
-      "given": "Guido"
-    }
-  ],
-  "copyright": "Creative Commons Attribution Non Commercial 4.0 International",
-  "id": "https://doi.org/10.21255/sgb-01.07-191037",
-  "issued": {
-    "date-parts": [[2024]]
-  },
-  "language": "de",
-  "publisher": "Christoph Merian Verlag",
-  "title": "Anhang",
-  "type": "article"
+	"DOI": "10.21255/SGB-01.07-191037",
+	"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band1/chapter/289",
+	"author": [
+		{
+			"family": "Lassau",
+			"given": "Guido"
+		}
+	],
+	"copyright": "Creative Commons Attribution Non Commercial 4.0 International",
+	"id": "https://doi.org/10.21255/sgb-01.07-191037",
+	"issued": {
+		"date-parts": [[2024]]
+	},
+	"language": "de",
+	"publisher": "Christoph Merian Verlag",
+	"title": "Anhang",
+	"type": "article"
 }
 ```
 
 **Fields:**
+
 - `DOI`: Digital Object Identifier
 - `URL`: Canonical URL for the resource
 - `author`: Array of author objects with family and given names

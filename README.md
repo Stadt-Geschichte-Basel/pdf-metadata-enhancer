@@ -233,6 +233,7 @@ sgb/
 This script automates the process of extracting DOIs from web pages and fetching their metadata:
 
 **Features:**
+
 - Extracts DOIs from HTML pages using pattern matching
 - Fetches CSL-JSON metadata via DOI content negotiation
 - Concurrent fetching with configurable concurrency
@@ -268,6 +269,7 @@ uv run python3 src/scripts/get_metadata.py \
 ```
 
 **Options:**
+
 - `--url`: Add a URL to scan (can be used multiple times)
 - `--urls-file`: Path to a text file with one URL per line
 - `--concurrency`: Number of concurrent DOI fetches (default: 10)
@@ -276,6 +278,7 @@ uv run python3 src/scripts/get_metadata.py \
 - `--out-fail`: Output file for failure report (default: `failed_dois_report.txt`)
 
 **Output Files:**
+
 1. **DOI list** (`dois.txt`): One DOI per line, lowercase, sorted
 2. **Metadata** (`metadata.json`): Array of CSL-JSON objects
 3. **Failure report** (`failed_dois_report.txt`): Errors with provenance information
@@ -361,6 +364,7 @@ uv run python3 src/scripts/get_metadata.py \
 ```
 
 The script:
+
 1. Extracts DOIs from HTML pages
 2. Fetches CSL-JSON metadata using content negotiation
 3. Creates a DOI list, metadata file, and failure report
