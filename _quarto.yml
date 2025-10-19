@@ -3,7 +3,7 @@ project:
 
 website:
   title: pdf-metadata-enhancer
-  favicon: android-chrome-512x512.png
+  favicon: _extensions/Stadt-Geschichte-Basel/sgb-theme/favicon.png
   open-graph: true
   twitter-card: true
   site-url: https://Stadt-Geschichte-Basel.github.io/pdf-metadata-enhancer/
@@ -17,40 +17,32 @@ website:
     show-item-context: true
     type: overlay
   navbar:
-    logo: android-chrome-512x512.png
-    logo-alt: ''
+    logo: _extensions/Stadt-Geschichte-Basel/sgb-theme/assets/img/logo.svg
+    logo-alt: 'Stadt.Geschichte.Basel Logo'
     title: pdf-metadata-enhancer
     tools:
       - icon: github
         url: https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/
-    left:
-      - text: Readme
-        href: index.qmd
-      - text: Report
-        href: report.md
 
   sidebar:
     contents:
-      - section: pdf-metadata-enhancer
+      - text: Home
         href: index.qmd
-        contents:
-          - text: Changelog
-            href: CHANGELOG.md
-          - text: Code of Conduct
-            href: CODE_OF_CONDUCT.md
-          - text: Contributing
-            href: CONTRIBUTING.md
-          - text: License (Data)
-            href: LICENSE-CCBY.md
-          - text: License (Code)
-            href: LICENSE-AGPL.md
-          - text: Security
-            href: SECURITY.md
-      - href: report.md
-        contents: project-management/*
+      - text: Changelog
+        href: CHANGELOG.md
+      - text: Code of Conduct
+        href: CODE_OF_CONDUCT.md
+      - text: Contributing
+        href: CONTRIBUTING.md
+      - text: License (Data)
+        href: LICENSE-CCBY.md
+      - text: License (Code)
+        href: LICENSE-AGPL.md
+      - text: Security
+        href: SECURITY.md
 
 format:
-  html:
+  sgb-theme-html:
     toc: true
     theme:
       - brand

@@ -1,0 +1,2055 @@
+[
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-01.07-191037",
+		"language": "de",
+		"author": [
+			{
+				"family": "Lassau",
+				"given": "Guido"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-01.07-191037",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Anhang",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band1/chapter/289",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-01.06-725132",
+		"language": "de",
+		"author": [
+			{
+				"family": "Lassau",
+				"given": "Guido"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-01.06-725132",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Der lange Weg zur Stadt: Eine Synthese",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band1/chapter/288",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-01-406352",
+		"language": "de",
+		"author": [
+			{
+				"family": "Allemann",
+				"given": "Martin"
+			},
+			{
+				"family": "Asal",
+				"given": "Markus"
+			},
+			{
+				"family": "Bargetzi",
+				"given": "Dagmar"
+			},
+			{
+				"family": "Brönnimann",
+				"given": "David"
+			},
+			{
+				"family": "Depaermentier",
+				"given": "Margaux"
+			},
+			{
+				"family": "Hagendorn",
+				"given": "Andrea"
+			},
+			{
+				"family": "Hüglin",
+				"given": "Sophie"
+			},
+			{
+				"family": "Lassau",
+				"given": "Guido"
+			},
+			{
+				"family": "Mayer",
+				"given": "Simone"
+			},
+			{
+				"family": "Rentzel",
+				"given": "Philippe"
+			},
+			{
+				"family": "Rissanen",
+				"given": "Hannele"
+			},
+			{
+				"family": "Schwarz",
+				"given": "Peter-Andrew"
+			},
+			{
+				"family": "Spichtig",
+				"given": "Norbert"
+			},
+			{
+				"family": "Straumann",
+				"given": "Sven"
+			},
+			{
+				"family": "de Vaan",
+				"given": "Michiel"
+			},
+			{
+				"family": "Wimmer",
+				"given": "Johannes"
+			}
+		],
+		"contributor": [
+			{
+				"family": "Lassau",
+				"given": "Guido"
+			},
+			{
+				"family": "Schwarz",
+				"given": "Peter-Andrew"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-01-406352",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Auf dem langen Weg zur Stadt. 50 000 v. Chr. – 800 n. Chr.",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band1",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-01.03-840481",
+		"language": "de",
+		"author": [
+			{
+				"family": "Wimmer",
+				"given": "Johannes"
+			},
+			{
+				"family": "Rissanen",
+				"given": "Hannele"
+			},
+			{
+				"family": "Spichtig",
+				"given": "Norbert"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-01.03-840481",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Die Eisenzeit",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band1/chapter/285",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-02-404936",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sieber-Lehmann",
+				"given": "Claudius"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-02-404936",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Eine Bischofsstadt zwischen Oberrhein und Jura. 800 – 1273",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band2",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-01.04-168013",
+		"language": "de",
+		"author": [
+			{
+				"family": "Asal",
+				"given": "Markus"
+			},
+			{
+				"family": "Bargetzi",
+				"given": "Dagmar"
+			},
+			{
+				"family": "Hagendorn",
+				"given": "Andrea"
+			},
+			{
+				"family": "Straumann",
+				"given": "Sven"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-01.04-168013",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Die römische Zeit",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band1/chapter/286",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-01.01-439115",
+		"language": "de",
+		"author": [
+			{
+				"family": "Brönnimann",
+				"given": "David"
+			},
+			{
+				"family": "Rentzel",
+				"given": "Philippe"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-01.01-439115",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Naturraum",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band1/chapter/283",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-01.00-586075",
+		"language": "de",
+		"author": [
+			{
+				"family": "Lassau",
+				"given": "Guido"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-01.00-586075",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Einleitung: 500 Jahre Forschung für 50 000 Jahre Geschichte",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band1/chapter/290",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-01.02-993418",
+		"language": "de",
+		"author": [
+			{
+				"family": "Lassau",
+				"given": "Guido"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-01.02-993418",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Frühe Siedlungsspuren",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band1/chapter/284",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-01.05-896299",
+		"language": "de",
+		"author": [
+			{
+				"family": "Depaermentier",
+				"given": "Margaux"
+			},
+			{
+				"family": "Mayer",
+				"given": "Simone"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-01.05-896299",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Das Frühmittelalter",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band1/chapter/287",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-02.01-731545",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sieber-Lehmann",
+				"given": "Claudius"
+			},
+			{
+				"family": "Schwarz",
+				"given": "Peter-Andrew"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-02.01-731545",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Der Basler Bischof: Hirte und Herrscher",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band2/chapter/292",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-02.02-277131",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sieber-Lehmann",
+				"given": "Claudius"
+			},
+			{
+				"family": "Schwarz",
+				"given": "Peter-Andrew"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-02.02-277131",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Neuordnung und Aufgliederung",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band2/chapter/293",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-02.04-422394",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sieber-Lehmann",
+				"given": "Claudius"
+			},
+			{
+				"family": "Schwarz",
+				"given": "Peter-Andrew"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-02.04-422394",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Wandel und Aufbruch",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band2/chapter/295",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-02.03-202164",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sieber-Lehmann",
+				"given": "Claudius"
+			},
+			{
+				"family": "Schwarz",
+				"given": "Peter-Andrew"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-02.03-202164",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Grenzort mit Zugängen",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band2/chapter/294",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-02.00-992209",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sieber-Lehmann",
+				"given": "Claudius"
+			},
+			{
+				"family": "Schwarz",
+				"given": "Peter-Andrew"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-02.00-992209",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Einleitung: Ferne Zeiten, weite Räume",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band2/chapter/291",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-02.05-299313",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sieber-Lehmann",
+				"given": "Claudius"
+			},
+			{
+				"family": "Schwarz",
+				"given": "Peter-Andrew"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-02.05-299313",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Papst oder Kaiser?",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band2/chapter/296",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-02.06-669397",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sieber-Lehmann",
+				"given": "Claudius"
+			},
+			{
+				"family": "Schwarz",
+				"given": "Peter-Andrew"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-02.06-669397",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Aussen und Innen",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band2/chapter/297",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-02.07-338656",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sieber-Lehmann",
+				"given": "Claudius"
+			},
+			{
+				"family": "Schwarz",
+				"given": "Peter-Andrew"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-02.07-338656",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Besitzen und Behalten",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band2/chapter/298",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-02.08-653896",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sieber-Lehmann",
+				"given": "Claudius"
+			},
+			{
+				"family": "Schwarz",
+				"given": "Peter-Andrew"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-02.08-653896",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Neue Verhältnisse",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band2/chapter/299",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-02.09-762624",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sieber-Lehmann",
+				"given": "Claudius"
+			},
+			{
+				"family": "Schwarz",
+				"given": "Peter-Andrew"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-02.09-762624",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Anhang",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band2/chapter/299",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-03.03-794527",
+		"language": "de",
+		"author": [
+			{
+				"family": "Moddelmog",
+				"given": "Claudia"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-03.03-794527",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Haushalt, Unterhalt, Konsum. Lebensweisen zwischen Stadtpalast und Schulden",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band3/chapter/304",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-03-345800",
+		"language": "de",
+		"author": [
+			{
+				"family": "Burkart",
+				"given": "Lucas"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-03-345800",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Stadt in Verhandlung. 1250 – 1530",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band3",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-03.00-910023",
+		"language": "de",
+		"author": [
+			{
+				"family": "Burkart",
+				"given": "Lucas"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-03.00-910023",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Einleitung: Ein Berberaffe im Latrinenturm",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band3/chapter/301",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-03.01-669037",
+		"language": "de",
+		"author": [
+			{
+				"family": "Moddelmog",
+				"given": "Claudia"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-03.01-669037",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Glaube und Wissen",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band3/chapter/302",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-03.04-367774",
+		"language": "de",
+		"author": [
+			{
+				"family": "Moddelmog",
+				"given": "Claudia"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-03.04-367774",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Orte, Räume, Lebensformen. Geselligkeit und Gesellschaft",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band3/chapter/305",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-03.02-691441",
+		"language": "de",
+		"author": [
+			{
+				"family": "Moddelmog",
+				"given": "Claudia"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-03.02-691441",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Ressourcen für die Stadt. Anpassungen, Störungen und fragile Konstellationen",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band3/chapter/303",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-03.05-238056",
+		"language": "de",
+		"author": [
+			{
+				"family": "Hitz",
+				"given": "Benjamin"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-03.05-238056",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Hand-Werk und Lohn-Arbeit",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band3/chapter/306",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-03.07-756128",
+		"language": "de",
+		"author": [
+			{
+				"family": "Hitz",
+				"given": "Benjamin"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-03.07-756128",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Ordnung und Aufruhr",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band3/chapter/308",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-03.08-820440",
+		"language": "de",
+		"author": [
+			{
+				"family": "Hitz",
+				"given": "Benjamin"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-03.08-820440",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Krieg und Frieden",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band3/chapter/309",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-03.06-114045",
+		"language": "de",
+		"author": [
+			{
+				"family": "Hitz",
+				"given": "Benjamin"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-03.06-114045",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Handel und Kapital",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band3/chapter/307",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-04-283636",
+		"language": "de",
+		"author": [
+			{
+				"family": "Burghartz",
+				"given": "Susanna"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-04-283636",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Aufbrüche, Krisen, Transformationen. 1510 – 1790",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band4",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-03.09-715160",
+		"language": "de",
+		"author": [
+			{
+				"family": "Burkart",
+				"given": "Lucas"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-03.09-715160",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Fazit: Das Schillern der Stadt",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band3/chapter/310",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-04.02-998032",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sandl",
+				"given": "Marcus"
+			},
+			{
+				"family": "Sidler",
+				"given": "Daniel"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-04.02-998032",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Regulierter Alltag, vernetzte Elite und die Suche nach Freiräumen (1570–1620)",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band4/chapter/314",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-03.10-414719",
+		"language": "de",
+		"author": [
+			{
+				"family": "Burkart",
+				"given": "Lucas"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-03.10-414719",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Anhang",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band3/chapter/311",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-04.00-920056",
+		"language": "de",
+		"author": [
+			{
+				"family": "Burghartz",
+				"given": "Susanna"
+			},
+			{
+				"family": "Sandl",
+				"given": "Marcus"
+			},
+			{
+				"family": "Sidler",
+				"given": "Daniel"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-04.00-920056",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Einleitung",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band4/chapter/312",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-04.01-573018",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sandl",
+				"given": "Marcus"
+			},
+			{
+				"family": "Sidler",
+				"given": "Daniel"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-04.01-573018",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Politische Neuorientierung und reformatorischer Aufbruch (1510–1580)",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band4/chapter/313",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-04.03-959816",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sandl",
+				"given": "Marcus"
+			},
+			{
+				"family": "Sidler",
+				"given": "Daniel"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-04.03-959816",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Regieren und Entscheiden (1500-1800)",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band4/chapter/315",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-04.06-125466",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sandl",
+				"given": "Marcus"
+			},
+			{
+				"family": "Sidler",
+				"given": "Daniel"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-04.06-125466",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Unterschiede machen und Einheit herstellen: Die soziale Ordnung der städtischen Gesellschaft (1500–1800)",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band4/chapter/318",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-04.04-600476",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sandl",
+				"given": "Marcus"
+			},
+			{
+				"family": "Sidler",
+				"given": "Daniel"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-04.04-600476",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Urbane Orte und Rhythmen (1500–1800)",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band4/chapter/316",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-04.05-270373",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sandl",
+				"given": "Marcus"
+			},
+			{
+				"family": "Sidler",
+				"given": "Daniel"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-04.05-270373",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Kriege, Krisen und Profit (1580–1700)",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band4/chapter/317",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-04.07-152300",
+		"language": "de",
+		"author": [
+			{
+				"family": "Burghartz",
+				"given": "Susanna"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-04.07-152300",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Aufbruch in den Kapitalismus (1670–1810)Aufbruch in den Kapitalismus (1670–1810)",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band4/chapter/319",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-04.09-675115",
+		"language": "de",
+		"author": [
+			{
+				"family": "Burghartz",
+				"given": "Susanna"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-04.09-675115",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Anhang",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band4/chapter/320",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-05-155353",
+		"language": "de",
+		"author": [
+			{
+				"family": "Fehlmann",
+				"given": "Marc"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-05-155353",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Hinter der Mauer, vor der Moderne. 1760 – 1859 ",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band5",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-04.08-315502",
+		"language": "de",
+		"author": [
+			{
+				"family": "Sandl",
+				"given": "Marcus"
+			},
+			{
+				"family": "Sidler",
+				"given": "Daniel"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-04.08-315502",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Neue Regierungspraktiken und zivilgesellschaftliche Veränderungen (1690–1790)",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band4/chapter/320",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-05.00-351596",
+		"language": "de",
+		"author": [
+			{
+				"family": "Salvisberg",
+				"given": "André"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-05.00-351596",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Einleitung: 1760 –1859, eine ungewohnte Periodisierung",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band5/chapter/322",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-05.01-320593",
+		"language": "de",
+		"author": [
+			{
+				"family": "Salvisberg",
+				"given": "André"
+			},
+			{
+				"family": "Hochreiter",
+				"given": "Walter"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-05.01-320593",
+		"publisher": "Christoph Merian Verlag",
+		"title": "1760-1817",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band5/chapter/323",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-05.02-771925",
+		"language": "de",
+		"author": [
+			{
+				"family": "Voerkel",
+				"given": "Elise"
+			},
+			{
+				"family": "Heiniger",
+				"given": "Kevin"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-05.02-771925",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Zusammenkommen und Ausformen",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band5/chapter/324",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-05.03-719243",
+		"language": "de",
+		"author": [
+			{
+				"family": "Zihlmann",
+				"given": "Patricia"
+			},
+			{
+				"family": "Hess",
+				"given": "Stefan"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-05.03-719243",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Aushalten und Bewältigen",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band5/chapter/325",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-05.04-432348",
+		"language": "de",
+		"author": [
+			{
+				"family": "Salvisberg",
+				"given": "André"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-05.04-432348",
+		"publisher": "Christoph Merian Verlag",
+		"title": "1817-1840",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band5/chapter/326",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-05.06-612316",
+		"language": "de",
+		"author": [
+			{
+				"family": "Heiniger",
+				"given": "Kevin"
+			},
+			{
+				"family": "Hochreiter",
+				"given": "Walter"
+			},
+			{
+				"family": "Topkaya",
+				"given": "Yiğit"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-05.06-612316",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Produzieren und Finanzieren",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band5/chapter/328",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-05.05-622430",
+		"language": "de",
+		"author": [
+			{
+				"family": "Kriemler",
+				"given": "Daniel"
+			},
+			{
+				"family": "Tréfás",
+				"given": "David"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-05.05-622430",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Politisieren und Definieren",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band5/chapter/327",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-05.07-488609",
+		"language": "de",
+		"author": [
+			{
+				"family": "Salvisberg",
+				"given": "André"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-05.07-488609",
+		"publisher": "Christoph Merian Verlag",
+		"title": "1840-1859",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band5/chapter/329",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-05.09-314588",
+		"language": "de",
+		"author": [
+			{
+				"family": "Argast",
+				"given": "Regula"
+			},
+			{
+				"family": "Heizmann",
+				"given": "Lena"
+			},
+			{
+				"family": "Raciti",
+				"given": "Silvio"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-05.09-314588",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Anpassen und Widerstehen",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band5/chapter/331",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-06-810743",
+		"language": "de",
+		"author": [
+			{
+				"family": "Kury",
+				"given": "Patrick"
+			}
+		],
+		"contributor": [
+			{
+				"family": "Kury",
+				"given": "Patrick"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-06-810743",
+		"publisher": "Christoph Merian Verlag ",
+		"title": "Die beschleunigte Stadt. 1856 – 1914",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band6",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-05.10-850524",
+		"language": "de",
+		"author": [
+			{
+				"family": "Salvisberg",
+				"given": "André"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-05.10-850524",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Schlussbetrachtung zur Basler Sattelzeit",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band5/chapter/332",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-06.04-716861",
+		"author": [
+			{
+				"family": "Hafner",
+				"given": "Urs"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-06.04-716861",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Konservative Kontinuitäten: Das Patriziat zwischen Bewahren und Erneuern",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band6/chapter/338",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-05.11-316525",
+		"language": "de",
+		"author": [
+			{
+				"family": "Salvisberg",
+				"given": "André"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-05.11-316525",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Anhang",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band5/chapter/333",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-05.08-142908",
+		"language": "de",
+		"author": [
+			{
+				"family": "Kuhn",
+				"given": "Thomas K."
+			},
+			{
+				"family": "Bennewitz",
+				"given": "Susanne"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-05.08-142908",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Glauben und Debattieren",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band5/chapter/330",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-06.05-710534",
+		"language": "de",
+		"author": [
+			{
+				"family": "Kühschelm",
+				"given": "Oliver"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-06.05-710534",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Wirtschaft und Wirtschaften: Keine Industriellen ohne Dienstmägde",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band6/chapter/339",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-06.02-663720",
+		"language": "de",
+		"author": [
+			{
+				"family": "Pfister",
+				"given": "Benedikt"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-06.02-663720",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Alles neu! Menschen, Milieus und Quartiere",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band6/chapter/336",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-06.00-192307",
+		"language": "de",
+		"author": [
+			{
+				"family": "Kury",
+				"given": "Patrick"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-06.00-192307",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Einleitung: Zeitalter beschleunigten Wandels",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band6/chapter/334",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-06.01-625359",
+		"language": "de",
+		"author": [
+			{
+				"family": "Neisen",
+				"given": "Robert"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-06.01-625359",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Die eiserne Revolutionärin – Basel und die Eisenbahn",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band6/chapter/335",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-06.03-309580",
+		"language": "de",
+		"author": [
+			{
+				"family": "Gschwind",
+				"given": "Eva"
+			},
+			{
+				"family": "Pfister",
+				"given": "Benedikt"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-06.03-309580",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Von der Ratsherrenordnung zum modernen Staatswesen und zu neuer Machtverteilung ",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band6/chapter/337",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-06.06-843064",
+		"language": "de",
+		"author": [
+			{
+				"family": "Koellreuter",
+				"given": "Isabel"
+			},
+			{
+				"family": "Schürch",
+				"given": "Franziska"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-06.06-843064",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Signaturen der Moderne: Die Stadt um die Jahrhundertwende",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band6/chapter/340",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-07-663402",
+		"language": "de",
+		"author": [
+			{
+				"family": "Arni",
+				"given": "Caroline"
+			}
+		],
+		"contributor": [
+			{
+				"family": "Arni",
+				"given": "Caroline"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-07-663402",
+		"publisher": "Christoph Merian Verlag ",
+		"title": "Stadt an der Grenze in einer Zeit der Gefährdung. 1912 – 1966",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band7",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-07.00-412331",
+		"language": "de",
+		"author": [
+			{
+				"family": "Arni",
+				"given": "Caroline"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-07.00-412331",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Zur Einführung",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band7/chapter/342",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-07.01-137256",
+		"language": "de",
+		"author": [
+			{
+				"family": "Schürch",
+				"given": "Franziska"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-07.01-137256",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Immer Krieg, nie Krieg. Der Rhythmus des Jahrhunderts",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band7/chapter/343",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-06.07-476243",
+		"language": "de",
+		"author": [
+			{
+				"family": "Kury",
+				"given": "Patrick"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-06.07-476243",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Anhang",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band6/chapter/341",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-07.02-917501",
+		"language": "de",
+		"author": [
+			{
+				"family": "Crain Merz",
+				"given": "Noëmi"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-07.02-917501",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Gestalten und Verwalten. Städtische Politik in einer vielfältigen Gesellschaft",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band7/chapter/344",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-07.03-539723",
+		"language": "de",
+		"author": [
+			{
+				"family": "Koellreuter",
+				"given": "Isabel"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-07.03-539723",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Warenflüsse, Geldströme, Arbeitsmärkte. Wirtschaften an der Landesgrenze und darüber hinaus",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band7/chapter/345",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-07.04-535461",
+		"language": "de",
+		"author": [
+			{
+				"family": "Angehrn",
+				"given": "Céline"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-07.04-535461",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Bauten und Natur. Die Ordnung der urbanen Welt",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band7/chapter/346",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-07.06-601421",
+		"language": "de",
+		"author": [
+			{
+				"family": "Arni",
+				"given": "Caroline"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-07.06-601421",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Anhang",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band7/chapter/348",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-08.00-926859",
+		"language": "de",
+		"author": [
+			{
+				"family": "Lengwiler",
+				"given": "Martin"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-08.00-926859",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Einleitung: Das Ende von Basel, wie wir es kennen ",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band8/chapter/349",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-07.05-986553",
+		"language": "de",
+		"author": [
+			{
+				"family": "Angehrn",
+				"given": "Céline"
+			}
+		],
+		"issued": {
+			"date-parts": [[2024]]
+		},
+		"DOI": "10.21255/SGB-07.05-986553",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Orientierung in der Moderne. Reform, Religion und Expertise",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band7/chapter/347",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-08.02-782443",
+		"language": "de",
+		"author": [
+			{
+				"family": "Ehrenbold",
+				"given": "Tobias"
+			},
+			{
+				"family": "Gusset",
+				"given": "Silas"
+			},
+			{
+				"family": "Zahn",
+				"given": "Anina"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-08.02-782443",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Gesellschaft und Politik: Basel verhandeln ",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band8/chapter/351",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-08.03-619079",
+		"language": "de",
+		"author": [
+			{
+				"family": "Ehrenbold",
+				"given": "Tobias"
+			},
+			{
+				"family": "Gusset",
+				"given": "Silas"
+			},
+			{
+				"family": "Zahn",
+				"given": "Anina"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-08.03-619079",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Globalisierung und Digitalisierung: Die Verwandlung einer Industriestadt",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band8/chapter/352",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-08.01-665666",
+		"language": "de",
+		"author": [
+			{
+				"family": "Ehrenbold",
+				"given": "Tobias"
+			},
+			{
+				"family": "Gusset",
+				"given": "Silas"
+			},
+			{
+				"family": "Zahn",
+				"given": "Anina"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-08.01-665666",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Stadtplanung und Umweltschutz: Die Ressourcen werden knapp ",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band8/chapter/350",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-08-796384",
+		"language": "de",
+		"author": [
+			{
+				"family": "Lengwiler",
+				"given": "Martin"
+			}
+		],
+		"contributor": [
+			{
+				"family": "Lengwiler",
+				"given": "Martin"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-08-796384",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Auf dem Weg ins Jetzt. Seit 1960",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band8",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-08.04-547129",
+		"language": "de",
+		"author": [
+			{
+				"family": "Gusset",
+				"given": "Silas"
+			},
+			{
+				"family": "Zahn",
+				"given": "Anina"
+			},
+			{
+				"family": "Ehrenbold",
+				"given": "Tobias"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-08.04-547129",
+		"publisher": "Christoph Merian Verlag ",
+		"title": "Emotionen und Alltag: Das private Basel ",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band8/chapter/353",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-08.05-264155",
+		"language": "de",
+		"author": [
+			{
+				"family": "Ehrenbold",
+				"given": "Tobias"
+			},
+			{
+				"family": "Gusset",
+				"given": "Silas"
+			},
+			{
+				"family": "Zahn",
+				"given": "Anina"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-08.05-264155",
+		"publisher": "Christoph Merian Verlag ",
+		"title": "Kunst und Kultur: Basel vermarktet sich",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band8/chapter/354",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-09-486500",
+		"language": "de",
+		"author": [
+			{
+				"family": "Baur",
+				"given": "Esther"
+			},
+			{
+				"family": "Gafner",
+				"given": "Lina"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-09-486500",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Stadträume. Offen und begrenzt, gestaltet und umkämpft ",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band9/",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-09.04-446968",
+		"language": "de",
+		"author": [
+			{
+				"family": "Krämer",
+				"given": "Daniel"
+			},
+			{
+				"family": "Labhardt",
+				"given": "Robert"
+			},
+			{
+				"family": "Binnenkade",
+				"given": "Alexandra"
+			},
+			{
+				"family": "Matter",
+				"given": "Sonja"
+			},
+			{
+				"family": "Burri",
+				"given": "Jennifer"
+			},
+			{
+				"family": "Moddelmog",
+				"given": "Claudia"
+			},
+			{
+				"family": "Kasper",
+				"given": "Lea Katharina"
+			},
+			{
+				"family": "Stettler",
+				"given": "Niklaus"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-09.04-446968",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Begegnungsräume",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band9/chapter/360",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-08.06-480635",
+		"language": "de",
+		"author": [
+			{
+				"family": "Lengwiler",
+				"given": "Martin"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-08.06-480635",
+		"publisher": "Christoph Merian Verlag ",
+		"title": "Anhang",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band8/chapter/355",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-09.01-621452",
+		"language": "de",
+		"author": [
+			{
+				"family": "Hänggi",
+				"given": "Yves"
+			},
+			{
+				"family": "Hagmann",
+				"given": "Daniel"
+			},
+			{
+				"family": "Sandl",
+				"given": "Marcus"
+			},
+			{
+				"family": "Vinken",
+				"given": "Gerhard"
+			},
+			{
+				"family": "Gafner",
+				"given": "Lina"
+			},
+			{
+				"family": "Weber",
+				"given": "Jakob"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-09.01-621452",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Raumordnungen",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band9/chapter/357",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-09.03-874521",
+		"language": "de",
+		"author": [
+			{
+				"family": "Ritter",
+				"given": "Markus"
+			},
+			{
+				"family": "Auderset",
+				"given": "Juri"
+			},
+			{
+				"family": "Schiedt",
+				"given": "Hans-Ulrich"
+			},
+			{
+				"family": "Hagmann",
+				"given": "Daniel"
+			},
+			{
+				"family": "Topkaya",
+				"given": "Yiğit"
+			},
+			{
+				"family": "Labhardt",
+				"given": "Robert"
+			},
+			{
+				"family": "Orland",
+				"given": "Barbara"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-09.03-874521",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Räume in Bewegung",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band9/chapter/359",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-09.00-167141",
+		"author": [
+			{
+				"family": "Baur",
+				"given": "Esther"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-09.00-167141",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Zur Einführung",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band9/chapter/356",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-09.02-456616",
+		"author": [
+			{
+				"family": "Rudin",
+				"given": "Dominique Stéphane"
+			},
+			{
+				"family": "Cronjäger",
+				"given": "Lisa"
+			},
+			{
+				"family": "Forter",
+				"given": "Martin"
+			},
+			{
+				"family": "Bardenheuer",
+				"given": "Markus"
+			},
+			{
+				"family": "Hähnle",
+				"given": "Mirjam"
+			},
+			{
+				"family": "Baumann",
+				"given": "Nathalie"
+			},
+			{
+				"family": "Koslowski",
+				"given": "Stefan"
+			},
+			{
+				"family": "Binnenkade",
+				"given": "Alexandra"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-09.02-456616",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Konflikträume",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band9/chapter/358",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	},
+	{
+		"type": "article",
+		"id": "https://doi.org/10.21255/sgb-09.05-877006",
+		"language": "de",
+		"author": [
+			{
+				"family": "Baur",
+				"given": "Esther"
+			},
+			{
+				"family": "Gafner",
+				"given": "Lina"
+			}
+		],
+		"issued": {
+			"date-parts": [[2025]]
+		},
+		"DOI": "10.21255/SGB-09.05-877006",
+		"publisher": "Christoph Merian Verlag",
+		"title": "Anhang",
+		"URL": "https://emono.unibas.ch/stadtgeschichtebasel/catalog/book/band9/chapter/361",
+		"copyright": "Creative Commons Attribution Non Commercial 4.0 International"
+	}
+]
