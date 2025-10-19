@@ -12,6 +12,7 @@ dependencies = [
     "pikepdf>=9.0.0",
     "click>=8.1.0",
     "requests>=2.31.0",
+    "aiohttp>=3.13.0",
 ]
 
 dependency-groups.dev = [
@@ -48,3 +49,8 @@ ignore = [
 [tool.ruff.format]
 quote-style = "double"
 indent-style = "space"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.1",
+]
