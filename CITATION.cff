@@ -15,7 +15,7 @@ authors:
     orcid: 'https://orcid.org/0000-0002-1367-1618'
 repository-code: >-
   https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer
-url: 'https://stadt-geschichte-basel.github.io/pdf-metadata-enhancer'
+url: 'https://dokumentation.stadtgeschichtebasel.ch/pdf-metadata-enhancer/'
 abstract: >-
   Tools and workflows for enhancing PDF metadata for digital 
   preservation and accessibility. This repository provides 
