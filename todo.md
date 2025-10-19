@@ -17,6 +17,15 @@ This file tracks all TODO items identified in the repository during initializati
 - ✅ **Install dependencies**: Ran `npm install` and `npm run prepare`
 - ✅ **Finalize README**: Deleted template README and activated project-specific version
 
+### Recent Additions (October 2025)
+
+- ✅ **Add SGB Dataset**: Added `sgb/dois.txt` with 88 DOIs from Stadt-Geschichte-Basel catalog
+- ✅ **Add SGB Metadata**: Created `sgb/metadata.json` with pre-fetched CSL-JSON metadata
+- ✅ **Create DOI Harvester Script**: Implemented `src/scripts/get_metadata.py` for automated DOI extraction and metadata fetching
+- ✅ **Document SGB Dataset**: Updated README.md with SGB dataset documentation
+- ✅ **Document Helper Scripts**: Added comprehensive documentation for get_metadata.py
+- ✅ **Update Project Structure**: Documented the sgb/ directory and scripts/ directory in README.md
+
 ## 📋 Open TODOs
 
 ### From README.md (Zenodo Integration)
