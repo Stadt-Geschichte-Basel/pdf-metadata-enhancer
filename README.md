@@ -300,6 +300,13 @@ _Zenodo_ provides an [API (REST & OAI-PMH)](https://developers.zenodo.org/) to a
 curl -i https://zenodo.org/api/records/ZENODO_RECORD
 ``` -->
 
+## Documentation
+
+- **[Usage Guide](docs/USAGE.md)**: Practical examples and workflows
+- **[SGB Dataset](sgb/README.md)**: Stadt-Geschichte-Basel dataset documentation
+- **[Contributing](CONTRIBUTING.md)**: How to contribute to this project
+- **[Changelog](CHANGELOG.md)**: Version history and changes
+
 ## Support
 
 This project is maintained by [@Stadt-Geschichte-Basel](https://github.com/Stadt-Geschichte-Basel). Please understand that we can't provide individual support via email. We also believe that help is much more valuable when it's shared publicly, so more people can benefit from it.
