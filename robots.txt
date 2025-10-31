@@ -1,1 +1,1 @@
-Sitemap: https://dokumentation.stadtgeschichtebasel.ch/pdf-metadata-enhancer//sitemap.xml
+Sitemap: https://dokumentation.stadtgeschichtebasel.ch/pdf-metadata-enhancer/sitemap.xml
