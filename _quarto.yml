@@ -6,7 +6,7 @@ website:
   favicon: _extensions/Stadt-Geschichte-Basel/sgb-theme/favicon.png
   open-graph: true
   twitter-card: true
-  site-url: https://dokumentation.stadtgeschichtebasel.ch/pdf-metadata-enhancer//
+  site-url: https://dokumentation.stadtgeschichtebasel.ch/pdf-metadata-enhancer/
   repo-url: https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/
   issue-url: https://github.com/Stadt-Geschichte-Basel/pdf-metadata-enhancer/issues/new/choose
   repo-actions: [edit, issue]
@@ -47,7 +47,6 @@ format:
     theme:
       - brand
       - cosmo
-    css: styles.css
     code-copy: true
     code-overflow: wrap
 
