@@ -305,7 +305,6 @@ curl -i https://zenodo.org/api/records/ZENODO_RECORD
 
 ## Additional Documentation
 
-- **[SGB Dataset](sgb/README.md)**: Documentation for the Stadt-Geschichte-Basel dataset
 - **[Contributing](CONTRIBUTING.md)**: Guidelines for contributing to this project
 - **[Changelog](CHANGELOG.md)**: Version history and changes
 - **[Security](SECURITY.md)**: Security policy and vulnerability reporting
